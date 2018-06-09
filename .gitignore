@@ -1,0 +1,21 @@
+# Java Files & Packages
+*.class
+*.ear
+*.jar
+*.war
+
+# Eclipse Project Files
+.project
+.settings/
+.classpath
+.classpath/target
+.externalToolBuilders/
+
+# Maven Project Files
+target/
+bin/
+
+# Other files
+*.bak
+*.log
+*.swp
