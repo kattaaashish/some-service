@@ -9,7 +9,8 @@
 
   <modules>
         <module>invoice</module>	
-        <module>emails</module>	
+        <module>emails-daemon</module>	
+        <module>core</module>	
 
   </modules>
 
