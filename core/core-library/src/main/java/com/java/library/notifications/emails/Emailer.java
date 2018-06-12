@@ -14,8 +14,9 @@ public abstract class Emailer {
 		this.emailProvider = emailProvider;
 	}
 
-	public boolean generateAndSendEmail() {
-		return false;
-	}
+	/*
+	 * accepts arguements like order id, user id etc.
+	 */
+	public abstract boolean generateAndSendEmail();
 
 }

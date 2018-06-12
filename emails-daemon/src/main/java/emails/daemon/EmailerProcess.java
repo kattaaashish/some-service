@@ -29,7 +29,7 @@ public class EmailerProcess {
 	}
 
 	private void runProcess() {
-		EmailProcessTask emailProcessTask = new EmailProcessTask(queue, userNotificationStore,invoiceStore);
+		EmailProcessTask emailProcessTask = new EmailProcessTask(queue, userNotificationStore, invoiceStore);
 		executorService.submit(emailProcessTask);
 	}
 

@@ -7,10 +7,10 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>invoice</artifactId>
+	<artifactId>invoice-daemon</artifactId>
 	<packaging>jar</packaging>
 
-	<name>invoice</name>
+	<name>invoice-daemon</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -18,6 +18,21 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>com.core</groupId>
+			<artifactId>core-services</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.core</groupId>
+			<artifactId>core-database</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.core</groupId>
+			<artifactId>core-library</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>messaging-service</groupId>
 			<artifactId>messaging</artifactId>
